@@ -134,6 +134,9 @@ public class MovieSearch {
     }
 
     private static void display() {
+        System.out.println();
+        System.out.println("============================================================================" +
+                "=================================================================");
         System.out.printf("%-30s %-25s %-25s %-44s %-16s", "Movie Name", "Actor", "Actress", "Director(s)",
                 "Release Year");
         System.out.println();
